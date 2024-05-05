@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+h1 {
+    color: purple;
+}
+
+.introducao {
+    font-family: "Lato", sans-serif;
+    background-color: yellow;
+}
+
+/*
+    Medidas
+
+    - Absolutas
+        px (pixels)
+
+    - Relativas
+        % (porcentagem relativa ao pai)
+        vw (view weigth) 1vw é 1% da largurado navegador
+        vh (veiw heigth) 1vh é 1% da altura do navegador
+        em unidade relativa ao elemento pai
+        rem uinidade relativa ao elemento raiz
+*/
+
+.avo {
+    width: 50vw;
+    height: 50vh;
+    background-color: black;
+}
+.pai {
+    width: 50%;
+    height: 50%;
+    background-color: red;
+}
+.filho {
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+}
